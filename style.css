@@ -147,9 +147,9 @@ body {
   border-top: 3px solid #1ca0f2;
 }
 .wrapper .followers div:nth-child(3) {
-  border-image-source: linear-gradient(to right, #fdc468, #df4996);
-  border-image-slice: 1;
-  border-top: 3px solid;
+  background: linear-gradient(#f0f2fa, #f0f2fa) padding-box, linear-gradient(to right, #fdc468, #df4996);
+  border-radius: 5px 5px 0px 0px;
+  border-top: 3px solid transparent;
 }
 .wrapper .followers div:nth-child(4) {
   border-top: 3px solid #c4032a;
@@ -193,6 +193,9 @@ body {
 .dark-mode section .card {
   background: #252a41;
   color: #8b97c6;
+}
+.dark-mode .followers div:nth-child(3) {
+  background: linear-gradient(#252a41, #252a41) padding-box, linear-gradient(to right, #fdc468, #df4996);
 }
 .dark-mode .followers p span {
   color: #8b97c6;
